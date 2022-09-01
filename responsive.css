@@ -1,0 +1,59 @@
+@media screen and (max-width: 1050px) {
+    main .portfolio .bottom article .overlay h3 {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 875px) {
+    main .banner .overlay div h1 {
+      font-size: 45px;
+    }
+    main .banner {
+      background-position: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    main .portfolio .bottom {
+      grid-template-columns: 1fr;
+      row-gap: 20px;
+    }
+    main .portfolio .bottom article {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    main .banner .overlay div h1 {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    main .banner .overlay div h3 {
+      font-size: 18px;
+      letter-spacing: 0.4em;
+    }
+    main .banner {
+      background-position: 30%;
+    }
+  }
+  @media screen and (max-width: 1521px) {
+    main .about {
+        grid-template-columns: 1fr;
+    }
+    main .about .right {
+        width: 872px;
+    }
+    main .about .right article {
+        margin-top: 80px;
+    }
+        main .about .right article h1 {
+            font-size: 40px;}
+        main .about .right article h2 {
+            margin-top: 50px;
+            margin-bottom: 30px;
+            font-size: 35px;}
+        main .about .right article p {
+            font-size: 25px;
+        }
+    }
+  
